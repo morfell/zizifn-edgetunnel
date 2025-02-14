@@ -1,12 +1,12 @@
-// <!--GAMFC-->version base on commit ae47348f550b82f6ac41fa266908742b8b380962, time is 2024-11-30 13:45:55 UTC<!--GAMFC-END-->.
+// <!--GAMFC-->version base on commit 58686d5d125194d34a1137913b3a64ddcf55872f, time is 2024-11-27 09:26:01 UTC<!--GAMFC-END-->.
 // @ts-ignore
 import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
+let userID = 'b21a23af-390e-4b00-a16d-9668e25d8d80';
 
-let proxyIP = '';
+let proxyIP = 's10.serv00.com:15661';
 
 
 if (!isValidUUID(userID)) {
